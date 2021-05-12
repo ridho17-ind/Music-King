@@ -27,21 +27,21 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""🤖 𝘏𝘢𝘭𝘰 𝙎𝙤𝙗𝙖𝙩! 𝘚𝘢𝘺𝘢 𝘢𝘥𝘢𝘢𝘩 𝘣𝘰𝘵 𝘮𝘶𝘴𝘪𝘤 𝘺𝘢𝘯𝘨 𝘥𝘪 𝘳𝘢𝘯𝘤𝘢𝘯𝘨 𝘶𝘯𝘵𝘶𝘬 𝘮𝘦𝘯𝘨𝘩𝘪𝘣𝘶𝘳 𝘸𝘢𝘳𝘨𝘢 𝘵𝘦𝘭𝘦𝘨𝘳𝘢𝘮 𝘥𝘦𝘯𝘨𝘢𝘯 𝘝𝘊𝘎.\n\n⚔ 𝘈𝘯𝘥𝘢 𝘢𝘬𝘢𝘯 𝘣𝘦𝘳𝘱𝘦𝘳𝘢𝘯𝘨 𝘝𝘊𝘎 𝘣𝘦𝘳𝘴𝘢𝘮𝘢 𝘴𝘢𝘺𝘢 😼 , 𝘒𝘭𝘪𝘬 \'⚡️ 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⚡️\' 𝘈𝘵𝘢𝘶 𝘬𝘭𝘪𝘬 𝘵𝘰𝘮𝘣𝘰𝘭 𝘶𝘳𝘭 𝘥𝘪 𝘣𝘢𝘸𝘢𝘩 𝘪𝘯𝘪.\n\n⛑ Tambahkan [⚡️𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙈𝙪𝙨𝙞𝙘 𝙆𝙞𝙣𝙜⚡️](https://t.me/X_Newbie_Error_404) 𝘬𝘦 𝘨𝘳𝘶𝘱 𝘢𝘯𝘥𝘢 𝘫𝘪𝘬𝘢 𝘪𝘯𝘨𝘪𝘯 𝘮𝘶𝘴𝘪𝘤 𝘪𝘵𝘶 𝘈𝘬𝘵𝘪𝘧!.\n\n𝙈𝙖𝙨𝙩𝙚𝙧 𝙗𝙮 [⚡️𝙆𝙞𝙣𝙜 𝘼𝙥𝙞𝙨⚡️](https://t.me/PacarFerdilla)""",
+        f"""🤖 Hai Kamu,Bot ini bisa di pake di vcg!""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "⚡️ 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⚡️", url="https://t.me/Projectc0ding")
+                        "📱Bot Music📱", url="https://t.me/Skyzo_Music_Bot")
                   ],[
                     InlineKeyboardButton(
-                        "𝙂𝙧𝙤𝙪𝙥 𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/KingUserbotSupport"
+                        "📱Assistant Bot📱", url="https://t.me/SkyzoAssistant"
                     ),
                     InlineKeyboardButton(
-                        "𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝", url="https://telegra.ph/𝖢𝖺𝗋𝖺-𝖯𝖺𝗄𝖺𝗂-04-24"
+                        "👑Owner Bot👑", url="https://t.me/SkyzoGanss"
                     ),
                     InlineKeyboardButton(
-                        "🎁 𝘿𝙤𝙣𝙖𝙨𝙞 🎁", url="https://t.me/PacarFerdilla"
+                        "🎁Grup Support🎁", url="https://t.me/sahurbabi"
                     )
                 ]
             ]
@@ -56,10 +56,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝙂𝙧𝙤𝙪𝙥 𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/KingUserbotSupport"
+                        "Grup Gabut Online", url="https://t.me/Coba_Aja_Pencet"
                     ),
                     InlineKeyboardButton(
-                        "𝙈𝙖𝙨𝙩𝙚𝙧", url="https://t.me/PacarFerdilla"
+                        "Petunjuk Penggunaan", url="https://telegra.ph/Ultroid-05-12"
                     )
                 ]
             ]
@@ -73,10 +73,11 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝙂𝙧𝙤𝙪𝙥 𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/KingUserbotSupport"
+                        "📱Grup Support📱", url="https://t.me/sahurbabi"
                     ),
                     InlineKeyboardButton(
-                        "𝙈𝙖𝙨𝙩𝙚𝙧", url="https://t.me/PacarFerdilla"
+                        "👑Owner👑", url="https://t.me/SkyzoGanss"
+"
                     )
                 ]
             ]
