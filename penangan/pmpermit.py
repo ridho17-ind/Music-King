@@ -24,5 +24,5 @@ from pyrogram.types import Chat, Message, User
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
-  await USER.send_message(message.chat.id,"𝘏𝘢𝘭𝘰 𝙆𝙖𝙢𝙪!, ** 𝘚𝘢𝘺𝘢 𝘈𝘥𝘢𝘭𝘢𝘩 𝘓𝘢𝘺𝘢𝘯𝘢𝘯 ⚡️𝙈𝙪𝙨𝙞𝙠-𝙆𝙞𝙣𝙜⚡️.**\n\n ❗️ 𝙍𝙪𝙡𝙚𝙨:\n   - Jika bot terjadi masalah , silahkan pm ( chat ) @PacarFerdilla\n   - Jangan spam Lagu biar ga error ya \n\n 👉 **KIRIM LINK UNDANGAN GRUP ATAU NAMA PENGGUNA JIKA USERBOT TIDAK DAPAT BERGABUNG DENGAN GRUP ANDA.**\n\n ⛑ **Grup Support :** @KingUserbotSupport - **Master** @mPacarFerdilla\n\n")
+  await USER.send_message(message.chat.id, **Hallo kamu**  **Jika bot terjadi masalah , silahkan pm ( chat ) @SkyzoGanss\n   - Jangan spam Lagu biar ga error ya \n\n 👉 **KIRIM LINK UNDANGAN GRUP ATAU NAMA PENGGUNA JIKA USERBOT TIDAK DAPAT BERGABUNG DENGAN GRUP ANDA.**\n\n ⛑ **Grup Support :** @sahurbabi - **👑Owner Bot👑** @SkyzoGanss\n\n")
   return                        
